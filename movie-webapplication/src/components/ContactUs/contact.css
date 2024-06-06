@@ -29,8 +29,9 @@
   }
   
   .Contact-Section-Header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
+    color: white;
   }
   
   .Contact-Content-Section {
@@ -98,3 +99,7 @@
   .CheckBox span a {
     text-decoration: underline;
     color: inherit;  }
+
+    .Button{
+      padding-left: 10px;
+    }

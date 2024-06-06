@@ -10,14 +10,16 @@ const index = () => {
     <div className="CollectionSection">
       <div className="Collection-Header">
         <div className="Left-Section">
-          <h1>Collect your favourites</h1>
+          <b>
+            <h1>Collect your favourites</h1>
+          </b>
         </div>
         <div className="Right-Section">
           <Box
             sx={{
               width: 600,
-              maxWidth: "100%",
-              backgroundColor: "gray"
+              maxWidth: '100%',
+              backgroundColor: 'gray',
             }}
           >
             <TextField
@@ -25,28 +27,28 @@ const index = () => {
               label="Search title and add to grid"
               id="fullWidth"
               sx={{
-                backgroundColor: "gray", // Gray inside
-                "& .MuiOutlinedInput-root": {
-                  "& fieldset": {
-                    borderColor: "white" // White border
+                backgroundColor: 'gray', // Gray inside
+                '& .MuiOutlinedInput-root': {
+                  '& fieldset': {
+                    borderColor: 'white', // White border
                   },
-                  "&:hover fieldset": {
-                    borderColor: "white" // White border on hover
+                  '&:hover fieldset': {
+                    borderColor: 'white', // White border on hover
                   },
-                  "&.Mui-focused fieldset": {
-                    borderColor: "white" // White border when focused
+                  '&.Mui-focused fieldset': {
+                    borderColor: 'white', // White border when focused
                   },
                   input: {
-                    backgroundColor: "gray", // Gray background inside the input
-                    color: "white" // White text color
-                  }
+                    backgroundColor: 'gray', // Gray background inside the input
+                    color: 'white', // White text color
+                  },
                 },
-                "& .MuiInputLabel-root": {
-                  color: "white" // White label color
+                '& .MuiInputLabel-root': {
+                  color: 'white', // White label color
                 },
-                "& .MuiInputLabel-root.Mui-focused": {
-                  color: "white" // White label color when focused
-                }
+                '& .MuiInputLabel-root.Mui-focused': {
+                  color: 'white', // White label color when focused
+                },
               }}
             />
           </Box>

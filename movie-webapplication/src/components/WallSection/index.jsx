@@ -25,26 +25,27 @@ const index = () => {
   ];
 
   return (
-    <div className='WallSection'>
-       
-    <div className="slide-container">
-      <Fade>
-        {fadeImages.map((fadeImage, index) => (
-          <div key={index} className='each-fade'>
-            <img  src={fadeImage.url}  className='fade-image'/>
-          </div>
-        ))}
-      </Fade>
-    </div>
+    <div className="WallSection">
+      <div className="slide-container">
+        <Fade>
+          {fadeImages.map((fadeImage, index) => (
+            <div key={index} className="each-fade">
+              <img src={fadeImage.url} className="fade-image" />
+            </div>
+          ))}
+        </Fade>
+      </div>
 
-      <div className='WallText'>
-          <h1>Movie Section</h1>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, veritatis quibusdam aut quisquam rerum a alias quis qui deleniti fugiat accusamus culpa natus odit cumque? Eaque eligendi est fuga hic?</p>
-
+      <div className="WallText">
+        <h1>MOVIE LIBRARY</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex,
+          veritatis quibusdam aut quisquam rerum a alias quis qui deleniti
+          fugiat accusamus culpa natus odit cumque? Eaque eligendi est fuga hic?
+        </p>
       </div>
     </div>
- 
-  )
+  );
 }
 
 export default index

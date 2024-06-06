@@ -4,12 +4,13 @@
   padding: 40px;
   display: flex;
   margin-top: 10px;
-  background-color: black;
+  
 }
 
 .Collection-Header {
   display: flex;
   justify-content: space-between;
+  background-color: #1D1D1D;
 }
 .Left-Section {
   margin-top: 20px;
@@ -28,11 +29,21 @@
 .Collection-Breaker {
   width: 95%;
   height: 2px;
-  color: black;
+ background-color: white;
   margin-right: 60px;
+  border: none;
+
 }
 .Collection-Body {
   display: flex;
   justify-content: space-between;
-  padding-left: 100px;
+  padding-left:10%;
+  padding-right:10%;
+  background-color: #1D1D1D;
+}
+
+h1{
+  font-family: "Ropa Sans", sans-serif;
+  font-weight: 400;
+  font-display: bold;
 }

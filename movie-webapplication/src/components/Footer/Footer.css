@@ -2,14 +2,23 @@
     width: 100%;
     color: rgb(255, 255, 255);
     background-color: rgb(54, 54, 54);
+
 }
 .Footer-Left{
+    text-align: left;
     width:fit-content;
     height: fit-content;
-    margin-right: 700px;
+
 }
 .Footer-Right{
     width: fit-content;
     height: fit-content;
-    margin-left: 700px;
+
+}
+
+.footer{
+     justify-content: space-between;
+}
+.copyright{
+     justify-content: space-between;
 }

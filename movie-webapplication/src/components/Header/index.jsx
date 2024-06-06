@@ -70,16 +70,16 @@ const Header = () => {
             ></path>
           </svg>
       </a>
-          <h1>LOGOIPSUM</h1>
+          <h1>Logoipsum</h1>
       <div>
         <ul id="navbar">
-          <li>
-          <a href="/" className="active">Home</a>
-             <a href="/">OurScreen</a>
-            <a href="/">Shedule</a>
-           <a href="/">Movie Library</a>
-         <a href="/">Location & Contact</a>
-         <a><MenuIcon /></a>
+          <li className="li-text">
+            <a href="/" className="active">HOME</a>
+            <a href="/">OURSCREENS</a>
+            <a href="/">SHEDULE</a>
+            <a href="/">MOVIE LIBRARY</a>
+            <a href="/">LOCATION AND CONTACT</a>
+            <a><MenuIcon/></a>
           </li>
         </ul>
       </div>
