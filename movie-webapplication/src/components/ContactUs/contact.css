@@ -1,0 +1,100 @@
+/* .Contact-Section{
+
+}
+.Contact-Section-Header{
+    margin-right: 600px;   
+}
+.Contact-Content-Header h1{
+        padding-top: 30px;
+}
+.Contact-Content-Section{
+    display: flex;
+}
+.Contact-Section h1{
+ color: aliceblue;
+}
+
+.Contact-Section span{
+    color: aliceblue;
+   }
+
+.Contact-Left label{
+    color: aliceblue;
+} */
+
+.Contact-Section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .Contact-Section-Header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .Contact-Content-Section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Contact-Left {
+    flex: 1;
+    max-width: 50%;
+    padding-right: 20px;
+  }
+  
+  .Contact-Left label {
+    color: aliceblue;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .Contact-Left input,
+  .Contact-Left textarea {
+    background-color:#888;
+    width: 95%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .Contact-Right {
+    flex: 1;
+  }
+  
+  .Contact-Left .name-field {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Contact-Left .name-field div {
+    width: 48%;
+  }
+  
+  .Contact-Left span {
+    margin-right: 300px;
+    display: block;
+    font-style: italic;
+    color: #888;
+  }
+
+  .CheckBox {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .CheckBox span {
+    color: aliceblue;
+    padding-left: 10px;
+    margin-right:2px;
+  }
+  
+  .CheckBox span a {
+    text-decoration: underline;
+    color: inherit;  }

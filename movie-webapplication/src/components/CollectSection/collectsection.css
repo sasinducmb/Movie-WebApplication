@@ -1,0 +1,38 @@
+.CollectSection {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  margin-top: 10px;
+  background-color: black;
+}
+
+.Collection-Header {
+  display: flex;
+  justify-content: space-between;
+}
+.Left-Section {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.Left-Section h1 {
+  color: aliceblue;
+}
+.Right-Section {
+  margin-top: 20px;
+  margin-right: 70px;
+}
+.CollectSection h2 {
+  color: aliceblue;
+}
+.Collection-Breaker {
+  width: 95%;
+  height: 2px;
+  color: black;
+  margin-right: 60px;
+}
+.Collection-Body {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+}
