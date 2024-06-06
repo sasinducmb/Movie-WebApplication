@@ -1,0 +1,15 @@
+.Footer-Section{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+}
+.Footer-Left{
+    width:fit-content;
+    height: fit-content;
+    margin-right: 700px;
+}
+.Footer-Right{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 700px;
+}
